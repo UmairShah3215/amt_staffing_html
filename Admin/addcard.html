@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from amtstaffing.com/Admin/addcard.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Sep 2023 17:42:31 GMT -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin</title>
+  <link href="../../cdn.jsdelivr.net/npm/bootstrap%405.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&amp;display=swap"
+    rel="stylesheet" />
+  <!-- Owl Carosel -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <!-- AOS  -->
+  <link rel="stylesheet" href="../../unpkg.com/aos%403.0.0-beta.6/dist/aos.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="../../cdn-na.infragistics.com/igniteui/2022.2/latest/css/themes/infragistics/infragistics.theme.css"
+    rel="stylesheet" />
+  <!-- <link href="http://cdn-na.infragistics.com/igniteui/2022.2/latest/css/structure/infragistics.css" rel="stylesheet" /> -->
+  <link href="../../cdn-na.infragistics.com/igniteui/2022.2/latest/css/structure/infragistics.css" rel="stylesheet" />
+
+  <!-- mmenue -->
+  <link rel="stylesheet" href="../css/mmenu.css" />
+  <!-- editable -->
+  <!-- <link href="jquery.editable-select.min.css" rel="stylesheet"> -->
+  <!-- css -->
+  <link rel="stylesheet" href="../css/main.css" />
+</head>
+
+<style>
+  .ck-editor__editable[role="textbox"] {
+    /* editing area */
+    min-height: 200px;
+  }
+
+  .ck-content .image {
+    /* block images */
+    max-width: 80%;
+    margin: 20px auto;
+  }
+
+  .ck-sticky-panel__content,
+  .ck-voice-label {
+    display: none !important;
+  }
+</style>
+
+<body>
+
+  <main class="addCardPage">
+    <header class="py-3">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center header-top">
+          <div class="icons">
+            <a href="https://www.facebook.com/amtstaffing" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-facebook-f p-2"></i>
+            </a>
+            <a href="https://twitter.com/AMTSTAFFING1" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-twitter p-2"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/amt-medical-&amp;-dental-staffing-inc./" target="_blank"
+              rel="noopener noreferrer">
+              <i class="fa-brands fa-linkedin p-2"></i>
+            </a>
+          </div>
+          <div class="logo">
+            <a href="../index-2.html">
+              <img src="../images/NewImages/AMT-Logo-redraw.png" class="nav-img" alt="" />
+            </a>
+          </div>
+          <div class="nav_buttons">
+            <div class="nav_buttons_user text-center mb-3 mt-4">
+              <button class="btn">
+                <a href="https://amtstaffing.stafferlink.com/" class="text-white">
+                  Employee Portal
+                </a>
+              </button>
+              <button class="btn2" type="button">
+                <a href="https://amtstaffing.stafferlink.com/application/applicationlogin.aspx" class="text-white">
+                  Online Application
+                </a>
+              </button>
+              <div class="dropdown">
+                <i class="fa-solid fa-user">
+                  <div class="dropdown-content" id="auth_cred">
+                    <!-- <a href="#" class="login_user">Login</a>
+                          <a href="#" class="login_user">All Cards</a>
+                          <a href="#" class="login_user">Logout</a> -->
+                    <!-- <a href="#">Link 3</a> -->
+                  </div>
+                </i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- div error -->
+      <div class="border-bottom py-3"></div>
+
+      <div class="nav-links py-3">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="../index-2.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../about-us.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../client.html">CLIENT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../team.html">TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../applicant.html">APPLICANT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../findajob.html">FIND A JOB</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../resources.html">RESOURCES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../event.html">EVENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact-us.html">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../PaymentPortal.html">PAYMENT PORTAL</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="main_mmenu m-auto">
+        <div id="page">
+          <nav id="menu">
+            <ul>
+              <li>
+                <a href="../index-2.html">HOME</a>
+              </li>
+              <li>
+                <a href="../about-us.html">ABOUT</a>
+              </li>
+              <li>
+                <a href="../client.html">CLIENT</a>
+              </li>
+              <li>
+                <a href="../team.html">TEAM</a>
+              </li>
+              <li>
+                <a href="../applicant.html">APPLICANT</a>
+              </li>
+              <li>
+                <a href="../findajob.html">FIND A JOB</a>
+              </li>
+              <li>
+                <a href="../resources.html">RESOURCES</a>
+              </li>
+              <li>
+                <a href="../event.html">EVENTS</a>
+              </li>
+              <li>
+                <a href="../contact-us.html">CONTACT US</a>
+              </li>
+              <li>
+                <a href="../PaymentPortal.html">Payment Portal</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="menu_icn">
+            <a href="#menu" class="menu_icn_">
+              <img src="../images/menu.png" alt="" title="menu" />
+            </a>
+          </div>
+          <!--menu_icn end here-->
+        </div>
+        <!-- page close -->
+      </div>
+
+      <!-- what was this for? -->
+      <!-- <div class="border-top"></div> -->
+    </header>
+
+    <section class="section1">
+      <div class="container">
+        <div class="head text-center">
+          <h1>ADD A JOB</h1>
+        </div>
+        <div class="body">
+          <form class="form w-75">
+            <div class="feilds text-start my-4">
+              <div class="feild gap-3 d-flex ">
+                <!-- <div class="left w-50">
+                  <label>Discipline:</label>
+                  <select name="Discipline" id="discipline">
+                    <option value="select Discipline">Select Discipline</option>
+                    <option value="RN">RN</option>
+                    <option value="NP">NP</option>
+                    <option value="LPN">LPN</option>
+                    <option value="CNA">CNA</option>
+                    <option value="HHA">HHA</option>
+                    <option value="RAD TECH">RAD TECH</option>
+                    <option value="FRONT OFFICE">FRONT OFFICE</option>
+                    <option value="BILLER CODER">BILLER CODER</option>
+                    <option value="CCMA / CMA">CCMA / CMA</option>
+                    <option value="PHLEBOTOMIST">PHLEBOTOMIST</option>
+                  </select>
+                </div> -->
+                <div class="left w-50">
+                  <label>Profession:</label>
+                  <input type="text" name="profession" list="profession" id="professionfield" autocomplete="off" />
+                  <datalist id="profession">
+                  </datalist>
+                  <!-- <select name="profession" id="profession">
+                    <option value="select profession">
+                      Select profession
+                    </option>
+                    <option value="RN">RN</option>
+                    <option value="NP">NP</option>
+                    <option value="LPN">LPN</option>
+                    <option value="CNA">CNA</option>
+                    <option value="HHA">HHA</option>
+                    <option value="RAD TECH">RAD TECH</option>
+                    <option value="FRONT OFFICE">FRONT OFFICE</option>
+                    <option value="BILLER CODER">BILLER CODER</option>
+                    <option value="CCMA / CMA">CCMA / CMA</option>
+                    <option value="PHLEBOTOMIST">PHLEBOTOMIST</option>
+                  </select> -->
+                </div>
+                <div class="right w-50">
+                  <label>Speciality:</label>
+                  <input type="text" name="speciality" list="speciality" id="specialityfield" autocomplete="off" />
+                  <datalist id="speciality">
+                  </datalist>
+                  <!-- <select name="speciality" id="speciality">
+                    <option value="select Speciality">
+                      Select Speciality
+                    </option>
+                    <option value="Skilled Nursing">Skilled Nursing</option>
+                    <option value="Assisted living">Assisted living</option>
+                    <option value="group home">group home</option>
+                    <option value="Private Duty">Private Duty</option>
+                    <option value="Med Surg">Med Surg</option>
+                    <option value="ER">ER</option>
+                    <option value="OR">OR</option>
+                    <option value="Mental Health">Mental Health</option>
+                    <option value="Pediatric">Pediatric</option>
+                    <option value="Hospice">Hospice</option>
+                    <option value="School Nursing">School Nursing</option>
+                    <option value="Acute Care">Acute Care</option>
+                    <option value="Physician Office / Clinic">Physician Office / Clinic</option>
+                    <option value="Home Health">Home Health</option>
+                  </select> -->
+                </div>
+              </div>
+              <div class="feild gap-3 d-flex">
+                <div class="left w-50">
+                  <label>City:</label>
+                  <input type="text" name="city" list="city" id="cityfield" autocomplete="off" />
+                  <datalist id="city">
+                  </datalist>
+
+                </div>
+                <div class=" betw w-50">
+                  <label>State:</label>
+                  <input type="text" name="state" list="state" id="statefield" autocomplete="off" />
+                  <datalist id="state">
+                  </datalist>
+
+                </div>
+                <div class="right w-50">
+                  <label>Job Type:</label>
+                  <select name="jobType" id="jobType">
+                    <option value="select Type">SELECT TYPE</option>
+                    <option class="options_find_a_job" value="Full Time">FULL TIME</option>
+                    <option class="options_find_a_job" value="Part Time">PART TIME</option>
+                    <option class="options_find_a_job" value="Per Diem">Per Diem</option>
+                    <option class="options_find_a_job" value="Contract">CONTRACT</option>
+                    <option class="options_find_a_job" value="Travel">Travel</option>
+                    <option class="options_find_a_job" value="Temp To Perm">TEMP TO Perm</option>
+                    <option class="options_find_a_job" value="Direct Hire">DIRECT HIRE</option>
+                  </select>
+                </div>
+              </div>
+
+
+              <div class="feild ">
+                <label>Job Description:</label>
+                <textarea name="BlogText" rows="6 " id="jobDescription"></textarea>
+              </div>
+              <div class="feild gap-3 d-flex ">
+                <div class="left w-50">
+                  <label>Pay Range:</label>
+                  <input type="text" id="salary" />
+                </div>
+                <div class="bet w-50">
+                  <label>Pay Type:</label>
+                  <select name="Pay Type" id="salaryType">
+                    <option value="Select Pay Type">Select Pay Type</option>
+                    <option value="Hourly">Hourly</option>
+                    <option value="Weekly">Weekly</option>
+                  </select>
+                </div>
+                <div class="right w-50">
+                  <label>Pay Incentive:</label>
+                  <select name="Pay Type" id="salaryIncentive">
+                    <option value="Select Pay Incentive">Select Pay Incentive</option>
+                    <option value="Mileage">Mileage</option>
+                    <option value="Lodging/Stipend">Lodging/Stipend</option>
+                    <option value="Hotel Provided">Hotel Provided</option>
+                    <option value="Competion Bonus">Competion Bonus</option>
+                  </select>
+                </div>
+              </div>
+              <div class="feild ">
+                <label>Shift From:</label>
+                <div class="d-flex gap-2">
+                  <select name="Shift From Hour" id="ShiftFromHour">
+                    <option value="Select Hour">Select Hour</option>
+                    <option value="12">12</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                  </select>
+                  <select name="Shift From Minutes" id="ShiftFromMinutes">
+                    <option value="Select Minutes">Select Minutes</option>
+                    <option value="00">00</option>
+                    <option value="15">15</option>
+                    <option value="30">30</option>
+                    <option value="45">45</option>
+                  </select>
+                  <select name="Shift From AM/PM" id="ShiftFromAMPM">
+                    <option value="Select AM/PM">Select AM/PM</option>
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                  </select>
+                </div>
+              </div>
+              <div class="feild ">
+                <label>Shift To:</label>
+                <div class="d-flex gap-2">
+                  <select name="Shift To Hour" id="ShiftToHour">
+                    <option value="Select Hour">Select Hour</option>
+                    <option value="12">12</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                  </select>
+                  <select name="Shift To Minutes" id="ShiftToMinutes">
+                    <option value="Select Minutes">Select Minutes</option>
+                    <option value="00">00</option>
+                    <option value="15">15</option>
+                    <option value="30">30</option>
+                    <option value="45">45</option>
+                  </select>
+                  <select name="Shift To AM/PM" id="ShiftToAMPM">
+                    <option value="Select AM/PM">Select AM/PM</option>
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                  </select>
+                </div>
+              </div>
+
+
+
+              <div class="feild ">
+                <label>Duration</label>
+                <div class="gap-3 d-flex">
+                  <div class="left w-50">
+                    <label>From:</label>
+                    <input type="date" id="durationfrom" />
+                  </div>
+                  <div class="right w-50">
+                    <label>To:</label>
+                    <input type="date" id="durationto" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="feild  gap-3 d-flex ">
+                <div class="right w-50">
+                  <label>Days Per Week:</label>
+                  <input type="text" id="dayperweek" />
+                </div>
+                <div class="middle w-50">
+                  <label>Job Status:</label>
+                  <select name="jobStatus" id="status">
+                    <option value="Active" selected>Active</option>
+                    <option value="Inactive">Inactive</option>
+                    <option value="Hold">Hold</option>
+                  </select>
+                </div>
+                <div class="left w-50">
+                  <label>Job Posting Date:</label>
+                  <input type="date" id="date" />
+                </div>
+              </div>
+            </div>
+
+            <div class="text-start d-flex justify-content-center gap-3">
+              <div class="">
+                <button class="btn" type="button" id="submit_btn">
+                  Submit
+                </button>
+              </div>
+              <div class="">
+                <button class="btn" type="button" id="clear_btn">
+                  Clear
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <div class="footer container">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="hedingh3 text-align-center py-4">
+                <a href="index.html">
+                  <img src="../images/amt-logo-plain.png" class="footer-img-2 container w-50" alt="">
+                </a>
+                <p class="img-1-text py-2"> AMT Staffing has been a resource for many healthcare
+                  providers and
+                  facilities over the years to recruit and place qualified candidates. Here are some
+                  of our
+                  partners.
+                </p>
+              </div>
+            </div>
+            <div class="footer-3 text-center col-lg-3 col-md-6 col-sm-6 py-4">
+              <div class="heading-footer text-center py-3">
+                <h3 class="heading-3">Hours Of Operation</h3>
+                <ul class="top_infomation">
+                  <li class="py-3">
+                    M-F 8 AM - 4:30 PM
+                  </li>
+                  <li class="py-2">
+                    P:(205) 321-6881
+                  </li>
+                  <li class="py-2">
+                    T:(877) 321-6881
+                  </li>
+                  <li class="py-2">
+                    F:(205) 321-6879
+                  </li>
+                  <li class="py-2">
+                    E: staff@amtstaffing.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-end">
+
+          </div>
+          <div class="copyright py-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 offset-md-2">
+                  <p>© Copyright 2022 All Rights Reserved by (CTS) Code Tech Soft</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <div class="gototop">
+      <a href="#header">
+        <i class="fa-solid fa-chevron-up"></i>
+      </a>
+    </div>
+  </main>
+
+  <!-- JQuery -->
+  <script src="../../cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- <script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="jquery.editable-select.js"></script> -->
+  <!-- Owl Carosel -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+  <!-- Bootsrtap -->
+  <script src="../../cdn.jsdelivr.net/npm/bootstrap%405.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <!-- mmenu -->
+  <script src="../js/mmenu.min.all.js"></script>
+
+  <!-- Aos -->
+  <script src="../../unpkg.com/aos%403.0.0-beta.6/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 120,
+      delay: 0,
+      duration: 1200,
+    });
+  </script>
+
+  <script src="../../cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script>
+
+  <script src="../../unpkg.com/sweetalert%402.1.2/dist/sweetalert.min.js"></script>
+  <!-- JS -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+    import {
+      getDatabase,
+      ref,
+      set,
+      get,
+      child,
+      update,
+      push,
+      remove,
+      onValue,
+    } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
+    import {
+      getAuth,
+      signInWithEmailAndPassword,
+      signOut,
+      onAuthStateChanged,
+    } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
+    const firebaseConfig = {
+      apiKey: "AIzaSyBfu0UTH2zNaijOZlDEYYSbgu7DXDQdhqE",
+  authDomain: "amtstaffing-26a61.firebaseapp.com",
+  databaseURL: "https://amtstaffing-26a61-default-rtdb.firebaseio.com",
+  projectId: "amtstaffing-26a61",
+  storageBucket: "amtstaffing-26a61.appspot.com",
+  messagingSenderId: "783485510449",
+  appId: "1:783485510449:web:bf331564e9292451580610",
+  measurementId: "G-4G4MG3ZED3"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+
+    // Add 
+    //  Single Data
+    // let discipline = document.getElementById("discipline");
+    let profession = document.getElementById("profession");
+    let speciality = document.getElementById("speciality");
+    let state = document.getElementById("state");
+    let city = document.getElementById("city");
+    let jobType = document.getElementById("jobType");
+    let jobDescription = document.getElementById("jobDescription");
+    let salary = document.getElementById("salary");
+    let salaryType = document.getElementById("salaryType");
+    let salaryIncentive = document.getElementById("salaryIncentive");
+    let dayperweek = document.getElementById("dayperweek");
+    let status = document.getElementById("status");
+    let dateee = document.getElementById("date");
+
+    // multiple Data
+    // Shift From
+    let ShiftFromHour = document.getElementById("ShiftFromHour");
+    let ShiftFromMinutes = document.getElementById("ShiftFromMinutes");
+    let ShiftFromAMPM = document.getElementById("ShiftFromAMPM");
+    // Shift To
+    let ShiftToHour = document.getElementById("ShiftToHour");
+    let ShiftToMinutes = document.getElementById("ShiftToMinutes");
+    let ShiftToAMPM = document.getElementById("ShiftToAMPM");
+
+
+    // Duration
+    let durationfrom = document.getElementById("durationfrom");
+    let durationto = document.getElementById("durationto");
+
+
+    // Field Data
+    let cityfield = document.getElementById("cityfield");
+    let statefield = document.getElementById("statefield");
+    let professionfield = document.getElementById("professionfield");
+    let specialityfield = document.getElementById("specialityfield");
+    // Buttons
+    let submit_btn = document.getElementById("submit_btn");
+    let clear_btn = document.getElementById("clear_btn");
+
+    // Variables
+    let indexNum;
+    var jobDescFieldData;
+    var statefield__;
+    var cityfield__;
+    var professionfield__;
+    var specialityfield__;
+    let arr = [];
+
+    ClassicEditor
+      .create(document.querySelector('#jobDescription'))
+      .then(editor => { jobDescFieldData = editor })
+      .catch(error => {
+        console.error(error);
+      });
+
+
+
+    function delData() {
+      // discipline.value = "select Discipline";
+      professionfield.value = "";
+      specialityfield.value = "";
+      statefield.value = "";
+      cityfield.value = "";
+      jobType.value = "select Type";
+      durationfrom.value = "";
+      durationto.value = "";
+      salary.value = "";
+      salaryType.value = "Select Pay Type";
+      salaryIncentive.value = "Select Pay Incentive";
+      dayperweek.value = "";
+      ShiftFromHour.value = "Select Hour"
+      ShiftFromMinutes.value = "Select Minutes"
+      ShiftFromAMPM.value = "Select AM/PM"
+      ShiftToHour.value = "Select Hour"
+      ShiftToMinutes.value = "Select Minutes"
+      ShiftToAMPM.value = "Select AM/PM"
+
+
+    }
+
+
+    function isLogoutUser() {
+      const auth = getAuth();
+      onAuthStateChanged(auth, (user) => {
+        if (!user) {
+          window.location.replace("signIn.html");
+        }
+      });
+    }
+
+    function getDataRealTime() {
+
+
+
+
+
+      
+      const dbref = ref(db, "cardData/jobs");
+      onValue(dbref, (data) => {
+        // console.log(data);
+        data.forEach((childelement) => {
+          // console.log(childelement.val());
+          arr.push(childelement.val());
+          // console.log(arr.length);
+        });
+      });
+
+      const dbref_state = ref(db, "cardData/location/state");
+      onValue(dbref_state, (data) => {
+        data.forEach((childelement) => {
+          // console.log(childelement.val());
+          let opt = document.createElement("option")
+          opt.setAttribute("value", childelement.val());
+          opt.innerHTML = childelement.val()
+          state.appendChild(opt);
+        });
+      });
+      const dbref_city = ref(db, "cardData/location/city");
+      onValue(dbref_city, (data) => {
+        data.forEach((childelement) => {
+          // console.log(childelement.val());
+          let opt = document.createElement("option")
+          opt.setAttribute("value", childelement.val());
+          opt.innerHTML = childelement.val()
+          city.appendChild(opt);
+        });
+      });
+
+      const dbref_profession = ref(db, "cardData/location/profession");
+      onValue(dbref_profession, (data) => {
+        data.forEach((childelement) => {
+          // console.log(childelement.val());
+          let opt = document.createElement("option")
+          opt.setAttribute("value", childelement.val());
+          opt.innerHTML = childelement.val()
+          profession.appendChild(opt);
+        });
+      });
+
+      const dbref_speciality = ref(db, "cardData/location/speciality");
+      onValue(dbref_speciality, (data) => {
+        data.forEach((childelement) => {
+          // console.log(childelement.val());
+          let opt = document.createElement("option")
+          opt.setAttribute("value", childelement.val());
+          opt.innerHTML = childelement.val()
+          speciality.appendChild(opt);
+        });
+      });
+    }
+
+    function addData() {
+      let vent = jobDescFieldData.getData() ? true : false
+      if (
+        // discipline.value == "select Discipline" ||
+        // specialityfield.value == "" ||
+        professionfield.value == "" ||
+        statefield.value == "" ||
+        cityfield.value == "" ||
+        dateee.value == "" ||
+        vent == false
+        // dayperweek.value == ""
+      ) {
+        swal("Please Enter Your Complete data");
+      } else {
+        indexNum = arr.length;
+       
+        set(ref(db, "cardData/jobs/" + indexNum), {
+          // discipline: discipline.value,
+          profession: professionfield.value,
+          speciality: specialityfield.value != "" ? specialityfield.value : "-",
+          state: statefield.value,
+          city: cityfield.value,
+          jobType: jobType.value != "select Type" ? jobType.value : "-",
+          jobDescription: jobDescFieldData.getData(),
+          Shiftfromhour: ShiftFromHour.value != "Select Hour" ? ShiftFromHour.value : "",
+          Shiftfromminutes: ShiftFromMinutes.value != "Select Minutes" ? ShiftFromMinutes.value : "",
+          Shiftfromampm: ShiftFromAMPM.value != "Select AM/PM" ? ShiftFromAMPM.value : "",
+          Shifttohour: ShiftToHour.value != "Select Hour" ? ShiftToHour.value : "",
+          Shifttominutes: ShiftToMinutes.value != "Select Minutes" ? ShiftToMinutes.value : "",
+          Shifttomampm: ShiftToAMPM.value != "Select AM/PM" ? ShiftToAMPM.value : "",
+          durationfrom: durationfrom.value,
+          durationto: durationto.value,
+          salary: salary.value ? salary.value : "-",
+          salaryType: salaryType.value != "Select Pay Type" ? salaryType.value : "-",
+          salaryIncentive: salaryIncentive.value != "Select Pay Incentive" ? salaryIncentive.value : "-",
+          dayperweek: dayperweek.value ? dayperweek.value : "-",
+          status: status.value,
+          date: dateee.value,
+          indexNum,
+        })
+          .then(() => {
+
+
+            var statefield_ = statefield.value;
+            for (let i = 0; i < state.children.length; i++) {
+              if (state.children[i].value === statefield.value) {
+                console.log(state.children[i].value + " " + statefield.value);
+                break
+              } else {
+                console.log("database");
+                var deff = ref(db, "cardData/location/state");
+
+                onValue(deff, (data) => {
+                  statefield__ = data.val()
+
+                  let newObj = { [statefield_]: statefield.value };
+
+                  Object.assign(statefield__, newObj);
+                  console.log(statefield__);
+                })
+
+
+
+                set(ref(db, "cardData/location/state"), statefield__)
+              }
+            }
+
+            var cityfield_ = cityfield.value;
+            for (let i = 0; i < city.children.length; i++) {
+              if (city.children[i].value === cityfield.value) {
+                console.log(city.children[i].value + " " + cityfield.value);
+                break
+              } else {
+
+                var refff = ref(db, "cardData/location/city");
+
+                onValue(refff, (data) => {
+                  cityfield__ = data.val()
+
+                  let newObj = { [cityfield_]: cityfield.value };
+
+                  Object.assign(cityfield__, newObj);
+                  console.log(cityfield__);
+                })
+
+                set(ref(db, "cardData/location/city"), cityfield__)
+              }
+            }
+
+            var professionfield_ = professionfield.value;
+            for (let i = 0; i < profession.children.length; i++) {
+              if (profession.children[i].value === professionfield.value) {
+                console.log(profession.children[i].value + " " + professionfield.value);
+                break
+              } else {
+
+                var pefff = ref(db, "cardData/location/profession");
+
+                onValue(pefff, (data) => {
+                  professionfield__ = data.val()
+
+                  let newObj = { [professionfield_]: professionfield.value };
+
+                  Object.assign(professionfield__, newObj);
+                  console.log(professionfield__);
+                })
+
+                set(ref(db, "cardData/location/profession"), professionfield__);
+              }
+            }
+
+
+            if (specialityfield.value != "") {
+              var specialityfield_ = specialityfield.value;
+              for (let i = 0; i < profession.children.length; i++) {
+                if (speciality.children[i].value === specialityfield.value) {
+                  console.log(speciality.children[i].value + " " + specialityfield.value);
+                  break
+                } else {
+
+                  var sefff = ref(db, "cardData/location/speciality");
+
+                  onValue(sefff, (data) => {
+                    specialityfield__ = data.val()
+
+                    let newObj = { [specialityfield_]: specialityfield.value };
+
+                    Object.assign(specialityfield__, newObj);
+                    console.log(specialityfield__);
+                  })
+
+                  set(ref(db, "cardData/location/speciality"), specialityfield__)
+                }
+              }
+
+            }
+
+
+
+            swal({
+              title: "Card Added Successfully",
+              icon: "success",
+              button: "OK",
+              closeOnClickOutside: false
+            }).then((willDelete) => {
+              if (willDelete) {
+                window.location.replace("../findajob.html");
+                // window.location.reload();
+              }
+            });
+
+          })
+          .catch((error) => {
+            console.log(error);
+            window.location.reload();
+          });
+
+      }
+
+
+
+
+
+      // console.log(state.children.length);
+    }
+
+    submit_btn.addEventListener("click", addData);
+    clear_btn.addEventListener("click", delData);
+
+
+
+
+    window.reload = getDataRealTime();
+    window.reload = isLogoutUser();
+  </script>
+  </script>
+
+
+  <!-- <script src="../js/main.js"></script> -->
+  <script type="module" src="../js/admin.js"></script>
+</body>
+
+
+<!-- Mirrored from amtstaffing.com/Admin/addcard.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Sep 2023 17:42:34 GMT -->
+</html>

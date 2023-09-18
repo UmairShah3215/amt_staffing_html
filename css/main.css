@@ -1,0 +1,3229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+li,
+a,
+input,
+select {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* header start  */
+
+header .nav-img {
+  /* width: 150px; */
+  height: 116px;
+}
+header .container-fluid .btn_0{
+  padding: 11px 14px !important;
+}
+header .container-fluid .btn {
+  background-color: #793bf3;
+  color: #ffffff !important;
+  border: 1px solid #793bf3 !important;
+  cursor: pointer;
+  border-radius: 0 !important;
+  text-transform: uppercase;
+  padding: 8px 14px;
+}
+
+header .container-fluid .btn:hover {
+  background-color: #fff;
+  color: #793bf3 !important;
+}
+
+header .container-fluid .btn:hover a {
+  color: #793bf3 !important;
+}
+
+header .container-fluid .btn2 {
+  background-color: #c01c2f;
+  color: #ffffff !important;
+  border: 1px solid #c01c2f !important;
+  cursor: pointer;
+  border-radius: 0 !important;
+  text-transform: uppercase;
+  padding: 8px 4px;
+}
+header .nav_buttons .button_3{
+  margin-top: -9px;
+}
+/* header .nav_buttons .button_4{
+  margin-top:-4px;
+} */
+header .nav_buttons .button_3 .btn_4{
+  padding: 8px 6px;
+}
+header .nav_buttons .button_3 .btn_5{
+  padding: 11px 3px;
+  font-size: 15px;
+}
+
+header .nav_buttons .button_3 .btn_6{
+  padding: 7px 7px;
+}
+header .container-fluid .btn2:hover {
+  background-color: #fff;
+  color: #c01c2f !important;
+}
+
+header .container-fluid .btn2:hover a {
+  color: #c01c2f !important;
+}
+/* header .container-fluid .btn_onlineApplication {
+  background-color: #793bf3;
+  color: #ffffff !important;
+  border: 1px solid #793bf3 !important;
+  cursor: pointer;
+  border-radius: 0 !important;
+  text-transform: uppercase;
+  padding: 3px ;
+} */
+/* 
+header .container-fluid .btn:hover {
+  background-color: #fff;
+  color: #c01c2f !important;
+}
+
+header .container-fluid .btn_onlineApplication:hover a {
+  color: #c01c2f !important;
+} */
+
+/* header .nav-btn:hover {
+  color: #793bf3 !important;
+  302561
+  180801
+} */
+
+/* header .nav_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+header .nav_buttons .button_3{
+  display: flex ;
+  align-items: center;
+  gap: 10px;
+}
+header .nav_buttons .button_3 .btn_3{
+  padding: 8px 3px;
+  font-size: 15px;
+}
+/* header .dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 5px;
+  border: none;
+  font-weight: lighter;
+} */
+
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 7px;
+  border: none;
+}
+textarea.form-control_9{
+  height: 149px;
+}
+textarea.form-control_8{
+  height: 213px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+header .login_user {
+  font-size: 10px;
+}
+/* .builtyourresume .btn-test:active {
+  background-color: #fff;
+  color: #000 !important;
+  border-color: #000 !important;
+} */
+
+.builtyourresume .btn a{
+  color: #fff;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fbfbfb;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 20%;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+header .nav_buttons_user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .container-fluid {
+  max-width: 1140px;
+}
+
+header .nav-links {
+  position: sticky !important;
+  top: 0;
+}
+
+header .login_user {
+  font-size: 15px;
+}
+
+header .btn {
+  background-color: #c01c2f;
+}
+
+header .btn2:hover {
+  background-color: #fff;
+  color: #c01c2f;
+}
+
+header .nav-link {
+  color: #1f232b;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700 !important;
+}
+
+header .nav-link.actives{
+  color: #55bce7;
+
+}
+header .nav-link:hover,header .nav-link:active {
+  color: #55bce7;
+}
+
+/* header end  */
+
+/* footer start  */
+
+.footer {
+  padding-top: 80px;
+  background-image: url("../images/footer.png");
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+
+  background-repeat: no-repeat;
+}
+
+.img-1-text {
+  font-weight: 500;
+  color: #808080;
+  margin-top: 20px;
+}
+
+ul.top_infomation li {
+  display: block;
+  font-size: 17px;
+  color: #808080;
+  font-weight: 500;
+}
+
+/* .homePage .slider_background{
+  background-color: #000;
+  opacity: 0.4;
+} */
+ .btn_color{
+  background-color: #c01c2f;
+}
+
+.btn_color:hover{
+  background: none;
+  border: 1px solid #c01c2f ;
+}
+.button009{
+  display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn_color1{
+  padding:5px 5px;
+  background-color:#c01c2f ;
+  border-radius: 5px;
+  
+}
+.btn_color1:hover{
+  background-color: none;
+}
+.heading-3 {
+  font-size: 25px;
+  text-align: center;
+  color: #808080;
+  font-weight: 700;
+}
+
+/* .footer-3 {
+  margin-left: 50%;
+} */
+
+.copyright p {
+  border-top: #808080 solid 1px;
+  padding-top: 20px;
+  color: #000;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: normal;
+}
+
+/* footer end  */
+
+/* Home page start */
+
+.homePage .home_carousel {
+  background-color: #504d4d;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  /* margin-top: 410px; */
+}
+
+.homePage .fa-user:before {
+  content: "\f007";
+  /* display: block;
+  width: 50%;
+  margin: auto;
+  font-size: 20px; */
+}
+
+.homePage .fa-calendar:before {
+  content: "\f133";
+  display: block;
+  width: 75%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.aplicantPage .section1 {
+  background-image: url("../images/form-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  padding-bottom: 57px;
+}
+
+.homePage .fa-ribbon:before {
+  content: "\f4d6";
+  display: block;
+  width: 75%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.homePage .sub_amt_sec {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.homePage .sub_amt_sec h1 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* 
+.homePage .img_doc{
+  height: 650px;
+  width: 950px;
+} */
+
+.homePage .card_group_amt {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+.homePage .carousel_extra {
+  background-color: #003e53;
+  color: #55bce7;
+}
+
+.homePage .lightfont {
+  color: #fff;
+  font-size: 25px;
+}
+
+.homePage .highlight {
+  color: #55bce7;
+  font-weight: 500;
+}
+
+.homePage .input1 {
+  padding: 10px;
+  opacity: 0.6;
+  color: #fff;
+}
+
+.homePage .div_super {
+  position: absolute;
+  top: -643px;
+  left: 150px;
+}
+
+.homePage .secMain {
+  position: absolute;
+}
+
+.homePage .form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 50%;
+}
+
+.homePage .extra {
+  height: 150px;
+}
+
+.homePage .para_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homePage .whole_div {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 1000px;
+}
+
+.homePage .input1 {
+  background-color: #000;
+  opacity: 0.6;
+}
+
+/* .homePage .home_carousel2{
+  background:  linear-gradient(90deg, rgba(115,111,179,1) 0%, rgba(85,188,231,1) 100%);
+  opacity: 0.8;
+} */
+/* 
+.homePage .div_back{
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .homePage .input1{
+  background-color: #000;
+  opacity: 0.6;
+} */
+
+.homePage .card .card-text {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 10px 0;
+  color: #7a7a7a;
+  line-height: 1.5;
+}
+
+.text-gradient {
+  font-size: 168px;
+  font-weight: 900;
+  word-wrap: break-word;
+  margin: 0%;
+  padding: 0%;
+
+  /* font-family: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,900&display=swap'); */
+}
+
+.amt-text__ {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.amt-text-img {
+  /* justify-content:flex-end;     */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.amt-text {
+  width: 50%;
+}
+
+.amt-head-img {
+  width: 50%;
+}
+
+.head-amt-text {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.subhead-amt-text {
+  font-size: 14px;
+  color: #1f232b;
+  font-weight: 600;
+}
+
+.homePage .cards_main_div {
+  margin-top: 20px;
+}
+
+.amt-para {
+  text-align: justify;
+}
+
+.amt-img {
+  width: 100%;
+  height: auto;
+  float: right;
+  display: b;
+}
+
+.banner-1-0 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #000;
+  margin-top: 20px;
+}
+
+.banner-1-1 {
+  font-weight: 900;
+  font-size: 45px;
+  color: #000;
+}
+
+.carousel-item a button,.carousel-item a button:hover {
+  border: 1px solid #b2312f;
+  color: #b2312f;
+  font-weight: 900;
+}
+
+.carousel-text-1 {
+  padding-bottom: 9%;
+}
+
+.details-text {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.title-font {
+  color: #55bce7;
+}
+
+.fa-solid {
+  color: #55bce7;
+  font-size: 30px;
+}
+
+/* .bg-form-img{
+} */
+.bg-form-text {
+  position: absolute;
+  top: -50px;
+  text-align: center;
+}
+
+.homePage .input_form {
+  background-color: #000;
+  opacity: 0.6;
+  padding: 10px;
+  color: #fff;
+}
+
+.homePage .form_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.homePage .img_bg {
+  position: absolute;
+}
+
+/* .homePage .whole_form{
+  display: block;
+  width: 50%;
+} */
+
+/* .homePage .whole_form{
+  margin-top: 150px;
+} */
+
+.homePage .text_form {
+  text-align: center;
+}
+
+.homePage .main_div_form {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+  margin-top: 150px;
+}
+
+/* .homePage .cards_div {
+} */
+
+.homePage .portion1 {
+  border-right: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+}
+
+.homePage .img_aos {
+  height: 125px;
+  /* margin: 20px 0;
+    height: 86px; */
+}
+
+.homePage .p_aos {
+  font-size: 15px;
+  color: #7a7474;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.homePage .amt_testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.homePage .amt_testimonials .container-fluid {
+  max-width: 1080px;
+}
+
+.homePage .amt_single_testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.homePage .amt_single_testimonial h1 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #7a7a7a;
+}
+
+.homePage .form-control {
+  background-color: #000;
+  opacity: 0.6;
+  color: #fff;
+  border-radius: none;
+}
+
+.homePage .amt_linear_img {
+  margin-top: 50px;
+  position: absolute;
+}
+
+.homePage .text_amt {
+  text-align: center;
+  position: absolute;
+  margin-top: 90px;
+}
+
+.aplicantPage .p_amt_home {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.aplicantPage .h1_amt_home {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 900;
+  /* font-weight: 500; */
+}
+
+.aplicantPage .amt_form_sec {
+  justify-content: center;
+  display: flex;
+  /* margin-top: 190px; */
+  gap: 24px;
+  flex-wrap: wrap;
+
+}
+
+.homePage .div_2_amt {
+  width: 50%;
+}
+
+/* 
+.homePage .section_fourth{
+  position: relative;
+  top: 190px;
+} */
+
+.homePage .flip_amt_carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.uploadyourresume .forms{
+  display:flex;
+  justify-content: center;
+}
+.form-control_1{
+  margin-top: 10px;
+}
+.uploadyourresume .btn-test:active{
+  background-color: #fff;
+  color: #000 !important;
+  border-color: #000 !important;
+}
+/* Home page end */
+
+/* aplicant page start */
+
+.aplicantPage .banner {
+  position: relative;
+}
+
+/*  */
+/* .aplicantPage .banner .form {
+  width: 40%;
+  border: 5px solid #d2d2d2;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.aplicantPage .banner .form .text p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.aplicantPage .banner .form .btn a {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  color: #fff;
+}
+
+.aplicantPage .banner .form .btn {
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #c01c2f;
+  /* background-color: #f3f2f2;
+  color: #274670; */
+/* border: 1px solid #000; */
+/* box-shadow: 1px 0px 17px 1px rgb(0 0 0 / 25%), */
+/* 1px 0px 17px 0px rgb(0 0 0 / 22%); */
+/* margin: 0; */
+/* padding: 0; */
+/* } */
+*/
+/*  */
+
+.aplicantPage .banner .body img {
+  width: 100%;
+  height: 444px;
+}
+
+.aplicantPage .banner .heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.aplicantPage  .texxxtt h2 {
+  color: #ff010a;
+  font-weight: 900;
+  font-size: 64px;
+}
+
+.aplicantPage .banner .body .divider {
+  position: absolute;
+  bottom: 0;
+  background-color: #003e53;
+  padding: 0.6rem;
+  width: 100%;
+}
+
+.aplicantPage .banner .body .divider::after {
+  content: "\f0d7";
+  font-family: "Font Awesome 6 free";
+  font-weight: bold;
+  font-size: 50px;
+  color: #fff;
+  /* background-color: #003e43; */
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.aplicantPage .section1_ .texxxtt {
+  max-width: 1269px;
+}
+
+.aplicantPage .texxxtt .logo {
+  border-radius: 50%;
+  margin: 3% auto;
+  text-align: center;
+}
+
+.aplicantPage .texxxtt .logo img {
+  width: 9%;
+  max-width: 9%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 38px 0px rgb(0 0 0 / 19%);
+}
+
+.aplicantPage  .texxxtt .parrah p {
+  /* text-align: justify; */
+  /* font-family: "Roboto",Sans-serif; */
+  /* font-size: 19px;
+  font-weight: 300;
+  line-height: 1.7em; */
+  font-weight: 400;
+  font-size: 17px;
+  /* margin-top: 40px; */
+  margin-bottom: 70px;
+  color: #7a7a7a;
+}
+
+.aplicantPage  .texxxtt .parrah p strong {
+  font-weight: 700;
+}
+
+.aplicantPage .section1_ .parrah p {
+  /* font-size: 16px;
+  font-weight: 500;
+  line-height: 30px; */
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 70px;
+  color: #7a7a7a;
+}
+
+.aplicantPage .section1_ .parrah p strong {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.aplicantPage .section1 .form {
+  width: 50%;
+  border: 2px solid #d2d2d2;
+  padding: 10px 50px;
+  text-align: center;
+  margin: auto;
+}
+.aplicantPage .text-center_9{
+  border: 2px solid #d2d2d2;
+  width: 49%;
+    margin: auto;
+    margin-top: 14px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+}
+.aplicantPage .section1 .form .logo {
+  width: 44%;
+  margin: auto;
+}
+
+.aplicantPage .section1 .form .logo img {
+  width: 100%;
+}
+
+.aplicantPage .section1 .form .onlineApp {
+  margin: 30px 0;
+  padding: 20px 0;
+  background-color: #d2d2d2;
+}
+
+.aplicantPage .section1 .form .onlineApp p {
+  color: #7a7a7a;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  /* line-height: 3rem; */
+}
+
+.aplicantPage .section1 .form .onlineApp a {
+  color: #337ab7;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.aplicantPage .section1 .form .text p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 11px;
+  color: #fff;
+}
+
+.aplicantPage .section1 .form .feild:first-child {
+  margin-top: 0;
+}
+
+.aplicantPage .section1 .form .feild:last-child {
+  margin-bottom: 0;
+}
+
+.aplicantPage .section1 .form .feild {
+  margin: 30px 0;
+}
+
+.aplicantPage .section1 .form .feild label {
+  color: #7a7a7a;
+  font-weight: 700;
+  display: block;
+  font-size: 17px;
+
+  margin-bottom: 10px;
+}
+.aplicantPage .section1 .text-center .btn090{
+  background-color: #c01c2f;
+  padding-left: 19px;
+  padding-right: 30px;
+}
+.aplicantPage .section1 .text-center .btn08{
+  background-color: #c01c2f;
+}
+
+.submitt .head ,.submitt h5{
+  text-align: center;
+}
+.submitt .forms h1{
+  border-bottom: 4px solid red;
+}
+.submitt .forms{
+  DISPLAY: flex;
+    flex-direction: column;
+    gap: 103px;
+}
+.submitt .text-center{
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+.submitt  .btn{
+  background-color: red;
+}
+.submitt  .btn:active{
+  background-color: red;
+}
+.aplicantPage .section1 .text-center .btn08:hover{
+  background: none;
+  border: 1px solid #c01c2f;
+}
+.aplicantPage .section1 .text-center .btn090:hover{
+  background: none;
+  border: 1px solid #c01c2f;
+}
+.aplicantPage .section1 .form .feild input,
+.aplicantPage .section1 .form .feild select {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 100%;
+  padding: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #7a7a7a;
+  box-shadow: none;
+  height: 38px;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  padding-bottom: 11px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 0, 0, 0.555);
+}
+
+.aplicantPage .section1 .form .feild input:focus,
+.aplicantPage .section1 .form .feild select:focus {
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 10%);
+  outline: 0;
+}
+
+.aplicantPage .section1 .form .btn {
+  font-weight: 500;
+  background-color: #c01c2f;
+  /* background-color: #f3f2f2;
+  color: #274670; */
+  /* border: 1px solid #000; */
+  box-shadow: 1px 0px 17px 1px rgb(0 0 0 / 25%),
+    1px 0px 17px 0px rgb(0 0 0 / 22%);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.aplicantPage .section1 .form .btn a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  /* font-size: 10px; */
+}
+
+.aplicantPage .client h2 {
+  color: #4e7ae1;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 44px;
+}
+
+/* aplicant page end */
+
+/* team page start */
+.clientPage h2,
+.clientPage h2 span {
+  color: #4e7ae1;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 44px;
+}
+
+.clientPage .request .right P {
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  color: #7a7a7a;
+  width: 80%;
+}
+
+.clientPage .request .right .butt button {
+  fill: #fff;
+  color: #fff;
+  background-color: #ff7052;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ff7052;
+  border-radius: 50px;
+  box-shadow: 0px 10px 30px -8px rgb(0 0 0 / 16%);
+  font-size: 16px;
+  padding: 12px 30px;
+}
+
+.clientPage .request .right .butt button:hover {
+  background-color: #fff;
+  color: #ff7052;
+}
+
+.clientPage .request .left .img img {
+  border-radius: 10%;
+  animation: move 3s ease-in-out infinite;
+}
+
+.clientPage .section1 h2 {
+  font-size: 35px;
+}
+
+.clientPage .section1 P {
+  color: #797979;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.clientPage .section1 h2:last-child {
+  color: #b3302f;
+}
+
+.clientPage .section1 h4 {
+  color: #1f232b;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-word;
+  margin-top: 1.5em;
+  margin-bottom: 0.9em;
+  letter-spacing: -0.02em;
+}
+
+.clientPage .section2 .form {
+  width: 100%;
+  background-color: #f5f5f5;
+  border: 3px solid #808080;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.clientPage .section2 .form .feild:first-child {
+  margin-top: 0;
+}
+
+.clientPage .section2 .form .feild:last-child {
+  margin-bottom: 0;
+}
+
+.clientPage .section2 .form .feild {
+  margin: 30px 0;
+}
+
+.clientPage .section2 .form .feild label {
+  color: #7a7a7a;
+  font-weight: 700;
+  display: block;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.clientPage .section2 .form .field .span {
+  color: #7a7a7a;
+  font-weight: 500 !important;
+  font-size: 17px;
+}
+
+.clientPage .section2 .form .feild input,
+.clientPage .section2 .form .feild textarea,
+.clientPage .section2 .form .feild select {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 100%;
+  padding: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #7a7a7a;
+  box-shadow: none;
+  height: 38px;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  padding-bottom: 11px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 0, 0, 0.555);
+}
+
+.clientPage .section2 .form .feild input:focus,
+.clientPage .section2 .form .feild textarea:focus,
+.clientPage .section2 .form .feild select:focus {
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 10%);
+  outline: 0;
+}
+
+.clientPage .butt {
+  margin-bottom: 12px;
+}
+
+.clientPage .section2 .form .feild textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.clientPage .section2 .form .btn {
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #b3302f;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.clientPage .section3 .row {
+  background-color: transparent;
+  background-image: linear-gradient(140deg, #ebb0e7 0%, #2642d3 100%);
+}
+
+.clientPage .section3 .heading h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.clientPage .section3 .heading ul li {
+  color: #fff;
+  font-weight: 500;
+}
+
+.clientPage .amt .head___ {
+  width: 80%;
+}
+
+.clientPage .amt h2 {
+  font-size: 37px;
+  text-align: center;
+}
+
+.clientPage .section4 h3 {
+  font-size: 36px;
+}
+
+/* .clientPage .section4 img {
+  animation: move 3s ease-in-out infinite;
+} */
+
+.clientPage .section4 .list .list_item {
+  color: #7a7a7a;
+  font-weight: 400;
+}
+
+@keyframes move {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* team page end */
+
+/* Find a job starting*/
+.findajob .carousel-item {
+  background: -webkit-linear-gradient(#736fb3, #55bce7);
+  height: 118px;
+}
+
+.findajob .find_heading {
+  font-size: 40px;
+  font-weight: 600;
+  /* display: block;
+    width: 25%;
+    margin: auto; */
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+  color: #fff;
+}
+
+.findajob .options_find_a_job {
+  font-size: 10px;
+}
+
+.findajob .find_heading_sub {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  gap: 21px;
+}
+
+.findajob .find_heading_sub.find_heading_sub__ {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.findajob .find_heading_sub p,
+.findajob .find_heading_sub a {
+  font-weight: 500;
+  font-size: 12px;
+  margin: auto;
+}
+
+.findajob .find_sub_p {
+  color: #fff;
+}
+
+.findajob .find_heading_sub .find_sub_a {
+  display: block;
+  background: #b2312f;
+  border-color: #b2312f !important;
+  box-shadow: 0px 0px 9px #b2312f;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.findajob .findajob_section_2 {
+  background: -webkit-linear-gradient(#736fb3, #55bce7);
+  display: flex;
+  gap:10px;
+  padding: 19px 50px;
+
+}
+
+.findajob .magnify {
+  background-color: #ffffff;
+  padding: 8px;
+  color: #000;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+}
+
+.findajob .magnify:hover {
+  background-color: #b3302f;
+  font-size: 15px;
+  transition: 0.9s;
+}
+.findajob .magnify:hover i {
+  color: #fff;
+
+}
+
+.findajob .input_find_a_job_section2 {
+  padding: 10px;
+  background-color: rgba(15, 15, 15, 0.5);
+  border: none;
+  border-radius: 5px !important;
+  opacity: 0.5;
+  color: #fff !important;
+  z-index: 9;
+  opacity: 1;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.findajob select {
+  padding: 15px;
+  background-color: rgba(15, 15, 15, 0.5);
+  border: none;
+  border-radius: 5px !important;
+  opacity: 0.5;
+  color: #fff !important;
+  z-index: 9;
+  opacity: 1;
+  width: 25% !important;
+}
+
+/* .findajob .input_find_a_job_select {
+  width: 16% !important;
+} */
+
+.findajob .input_find_a_job_section2::placeholder {
+  color: #ffff;
+}
+
+.findajob .input_find_a_job_section2:focus,
+.findajob select:active {
+  outline: none;
+}
+
+.findajob .section3 {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 22px;
+}
+
+.findajob .section3 .section3_text_div p,.findajob .section3 .section3_text_a {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 15px;
+  color: #7a7a7a;
+  /* line-break: anywhere; */
+}
+
+.findajob .section3 .section3_text_a{
+  color: #55bce7;
+}
+.findajob .section3 .section3_text_a:hover{
+  text-decoration: underline;
+}
+
+.findajob .section3_text_div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.findajob .section3_text_div h4 {
+  font-weight: 700;
+}
+
+.findajob .img_sec3 {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.findajob .a_section3 {
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.2s;
+  text-transform: capitalize;
+}
+
+.findajob .a_section3:hover {
+  color: #55bce7;
+  /* font-size: 30px; */
+  font-weight: bold;
+}
+
+.findajob .div_sec33 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.findajob .img_section3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.findajob .sec3 {
+  margin-top: 50px;
+}
+
+.findajob .fa-location-dot {
+  font-size: 15px;
+}
+
+.findajob .p_div_33 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #7a7a7a;
+}
+.findajob .a_findajob {
+  background-color: #c01c2f;  
+  color: #ffffff !important;
+  border: 1px solid #c01c2f !important;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 8px 17px;
+  border-radius: 5px;
+}
+
+.findajob .a_findajob:hover{
+  background-color: #fff;
+  color: #c01c2f !important;
+}
+
+.findajob .div_sec3 {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.findajob .fa-calendar-days {
+  font-size: 15px;
+}
+
+.findajob .div_sec33 {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.allcards_page .table tr td{
+  font-weight: 400;
+} 
+
+.allcards_page .modal .modal-body{
+  height: 400px;
+  overflow-y: auto;
+}
+
+.allcards_page .modal .modal-body form input,
+.allcards_page .modal .modal-body form select {
+  border: 1px solid #504d4d;
+  background-color: transparent;
+  color: #000 !important;
+  width: 100%;
+  padding: auto 1px;
+}
+
+/*  */
+
+.allcards_page .modal .modal-body form input,
+.allcards_page .modal .modal-body form select {
+  background-color: #fff;
+  border-radius: 8px !important;
+  width: 100%;
+  padding: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #7a7a7a !important;
+  box-shadow: none;
+  height: 38px;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  padding-bottom: 11px;
+  padding-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.555);
+}
+
+.allcards_page .modal .modal-body form textarea {
+  background-color: #fff;
+  border-radius: 8px !important;
+  width: 100%;
+  padding: 0 10px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #7a7a7a;
+  box-shadow: none;
+  height: 100%;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  resize: none;
+  border: 1px solid rgba(0, 0, 0, 0.555);
+  overflow: auto;
+}
+
+.allcards_page .modal .modal-body form input:focus,
+.allcards_page .modal .modal-body form textarea:focus,
+.allcards_page .modal .modal-body form select:focus {
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 10%);
+  outline: 0;
+}
+
+.full-time {
+  color: red;
+}
+
+/* Find a job end */
+
+/* CONTACT US */
+
+.Contact-Us-Page form label {
+  font-weight: 700;
+  font-size: 15px;
+  color: #7a7a7a;
+}
+
+.form-img {
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  transition: transform 0.2s;
+}
+
+.form-img:hover {
+  transform: scale(1.25);
+}
+
+.form-card-text {
+  background-color: #f6f6f6;
+}
+
+.form-card-head {
+  color: #1f232b;
+  font-weight: 700;
+}
+
+.form-card-subhead {
+  font-weight: 500;
+  font-size: 17px;
+  color: #7a7a7a;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 550px;
+  height: 260px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #1abc9c;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #4054b2;
+  color: white;
+  transform: rotateX(180deg);
+}
+
+.flip-icon-1 {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.flip-head-1 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.flip-para-1 {
+  color: #ffffff;
+}
+
+.flip-btn-1 {
+  background-color: #4054b2;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  width: 80px;
+}
+
+/* RESOURCES */
+.hover-underline-animation {
+  /* display: inline-block; */
+  position: relative;
+  color: black;
+  text-align: center;
+  /* margin-left: 40%; */
+  font-weight: 900;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: green;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* resource card */
+
+.Resources-Page .cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Resources-Page .card {
+  margin: 30px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.Resources-Page .card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Resources-Page .card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.Resources-Page .card:hover {
+  transform: scale(0.9, 0.9);
+}
+
+.Resources-Page .card-list {
+  flex-direction: column;
+}
+
+/*  */
+
+/* TEAM  */
+.amt-team-head {
+  font-size: 44px;
+  color: #55bce7;
+  font-weight: 700;
+}
+
+.amt-para-team-1 {
+  /* text-align: justify; */
+  font-weight: 400;
+  font-size: 16px;
+  color: #7a7a7a;
+  list-style-type: disc;
+}
+
+.amt-img-team-2 {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* float: right; */
+  /* width: 85%; */
+  /* height: 320px; */
+  padding-left: 10%;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7a7a7a;
+  text-transform: capitalize !important;
+}
+
+/* .amt-img-team-2{
+  animation: infinite ease-in-out;
+} */
+
+.amt-img-team-2-transi {
+  /* width: 100%; */
+  vertical-align: middle;
+  animation: puls 3s infinite both ease-in-out;
+  width: 80%;
+  vertical-align: middle;
+  animation: puls 3s infinite both ease-in-out;
+  margin: auto;
+}
+
+.amt-para-team-1-2 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #7a7a7a;
+}
+
+@keyframes puls {
+  0%,
+  100% {
+    transform: scale(0.8);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+.amt-team-bg {
+  background-color: #f6f6f6;
+}
+
+.team-card-head-text {
+  color: #000;
+  font-weight: 700;
+  font-size: 14px;
+  padding-top: 4px;
+}
+
+.team-card-para-text {
+  font-weight: 700;
+  font-size: 10px;
+  color: #7a7a7a;
+  padding: 0 5px;
+  /* color: #000;
+  font-size: 10px;
+  padding-top: 3px;
+  font-weight: 600; */
+}
+
+.teamPage .cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.teamPage .card {
+  margin: 30px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.teamPage .card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.teamPage .card .card_image img {
+  width: 41%;
+}
+
+.teamPage .card:hover {
+  transform: scale(0.9, 0.9);
+}
+
+.teamPage .card-list {
+  flex-direction: column;
+}
+
+/* team end  */
+
+/* About Us start  */
+.banner_about {
+  background: url("../images/about-banner.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  border: none;
+  border-radius: 0px, 0px, 30px, 30px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(#fe4c2e 0%, #f12184 94%);
+  inset: 0;
+  opacity: 0.81;
+}
+
+.banner_about::before {
+  content: "a";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+}
+
+.banner_about::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* border-bottom-right-radius:60px ; */
+  background-color: #fff;
+  width: 100%;
+  transform: rotate(10deg);
+  /* height: 100px; */
+}
+
+.banner_about .about_text {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  text-align: center;
+  z-index: 9999;
+  width: 70%;
+}
+
+.banner_about .about_text h2,
+.banner_about .about_text p {
+  color: #fff;
+}
+
+.about-head-1 {
+  font-size: 70px;
+  font-weight: 900;
+  width: fit-content;
+  border-bottom: 4px solid #ffffff;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.about-head-2 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.about-para-1 {
+  font-weight: 500;
+}
+
+.card-about {
+  text-align: center;
+  font-size: 70px;
+}
+
+.our-specialities-head {
+  font-weight: 900;
+  color: #55bce7;
+}
+
+.our-specialities-subhead {
+  color: #000;
+  font-weight: 900;
+}
+
+.about-us-page .cards-list {
+  display: flex;
+}
+
+.about-us-page .about____ ul li {
+  font-weight: 400;
+  font-size: 14px;
+  color: #7a7a7a;
+  line-height: 2;
+}
+
+/*  */
+
+.about-us-page .cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about-us-page .card {
+  margin: 30px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.about-us-page .card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-us-page .card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.about-us-page .card:hover {
+  transform: scale(0.9, 0.9);
+}
+
+.about-us-page .card-list {
+  flex-direction: column;
+}
+
+/* About End */
+
+/* Admin Start */
+
+.addCardPage .section1 .head h1 {
+  font-weight: 700;
+}
+
+.addCardPage .section1 .form {
+  width: 50%;
+  border: 5px solid #d2d2d2;
+  padding: 10px 50px;
+  text-align: center;
+  margin: 30px auto 0 auto;
+}
+
+.addCardPage .section1 .form .feild:first-child {
+  margin-top: 0;
+}
+
+.addCardPage .section1 .form .feild:last-child {
+  margin-bottom: 0;
+}
+
+.addCardPage .section1 .form .feild {
+  margin: 30px 0;
+}
+
+.addCardPage .section1 .form .feild label {
+  color: #7a7a7a;
+  font-weight: 700;
+  display: block;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+/* .addCardPage .section1 .form .feild input{
+  text-transform: lowercase !important;
+} */
+.addCardPage .section1 .form .feild input,
+.addCardPage .section1 .form .feild select {
+  background-color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    padding: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #7a7a7a;
+    box-shadow: none;
+    height: 30px;
+    letter-spacing: -0.02em;
+    line-height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.555);
+}
+
+.addCardPage .section1 .form .feild textarea {
+  background-color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    padding: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #7a7a7a;
+    box-shadow: none;
+    letter-spacing: -0.02em;
+    line-height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.555);
+}
+
+.addCardPage .section1 .form .feild input:focus,
+.addCardPage .section1 .form .feild textarea:focus,
+.addCardPage .section1 .form .feild select:focus {
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 10%);
+  outline: 0;
+}
+
+.addCardPage .section1 .form .feild ul{
+  margin: 0;
+  list-style-type: disc !important;
+} 
+.addCardPage .section1 .form .feild li .field_ul_li  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+.addCardPage .section1 .form .feild li span {
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 14px;
+}
+.addCardPage .section1 .form .feild li .field_ul_btn  {
+  display: flex;
+  gap: 5px ;
+  align-items: center;
+}
+.addCardPage .section1 .form .feild li button  {
+  font-size: 10px;
+}
+
+.addCardPage .section1 .form .btn.feild-butn {
+  font-size: 12px;
+}
+.addCardPage .section1 .form .btn {
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #f3f2f2;
+  color: #274670;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  display: block;
+}
+
+.addCardPage .section1 .form .btn a {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  /* background-color: #f3f2f2; */
+  color: #274670;
+  /* border: 1px solid #000; */
+  text-transform: uppercase;
+}
+
+/*  */
+
+.signInpage .section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.signInpage .section1 .form {
+  width: 25%;
+  border: 5px solid #d2d2d2;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.signInpage h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.signInpage .section1 .form .feild:first-child {
+  margin-top: 0;
+}
+
+.signInpage .section1 .form .feild:last-child {
+  margin-bottom: 0;
+}
+
+.signInpage .section1 .form .feild {
+  margin: 30px 0;
+}
+
+.signInpage .section1 .form .feild label {
+  color: #7a7a7a;
+  font-weight: 700;
+  display: block;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.signInpage .section1 .form span {
+  color: #7a7a7a;
+  font-weight: 500;
+  display: block;
+  font-size: 16px;
+}
+
+.signInpage .section1 .form a {
+  color: #7a7a7a;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.signInpage .section1 .form .feild input,
+.signInpage .section1 .form .feild select {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 100%;
+  padding: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #7a7a7a;
+  box-shadow: none;
+  height: 38px;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  padding-bottom: 11px;
+  padding-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.555);
+}
+
+.signInpage .section1 .form .feild textarea {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 100%;
+  padding: 0 10px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #7a7a7a;
+  box-shadow: none;
+  height: 150px;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  text-transform: uppercase;
+  resize: none;
+  border: 1px solid rgba(0, 0, 0, 0.555);
+  overflow: auto;
+}
+
+.signInpage .section1 .form .feild input:focus,
+.signInpage .section1 .form .feild textarea:focus,
+.signInpage .section1 .form .feild select:focus {
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 10%);
+  outline: 0;
+}
+
+.signInpage .section1 .form .btn {
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #f3f2f2;
+  color: #274670;
+  border: 1px solid #000;
+  text-transform: uppercase;
+}
+
+/* Admin End */
+
+.btn-test {
+  background-color: transparent;
+  color: #ffffff !important;
+  border: 1px solid #fff !important;
+  cursor: pointer;
+  border-radius: 0 !important;
+  text-transform: uppercase;
+  /* padding: 15px 40px; */
+  z-index: 999999 !important;
+  width: 25% !important;
+}
+
+.btn-1 {
+  background-color: #55bce7;
+  color: #000;
+  border-color: #55bce7;
+  padding: 5px;
+  margin: 5px;
+}
+
+.job_1 {
+  color: #55bce7;
+}
+
+.applying {
+  color: #55bce7;
+}
+
+/* .row{
+  border: 1px solid grey;
+} */
+
+.btn-form {
+  position: absolute;
+}
+
+/* slider */
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.slider {
+  background: white;
+  box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.125);
+  height: 150px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.slider::before,
+.slider::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.slider .slide {
+  height: 100px;
+  width: 250px;
+}
+
+.caro-logo-img {
+  justify-content: center;
+  display: flex;
+}
+
+/* slider */
+
+/* media Query */
+
+@media only screen and (max-width: 1143px) {
+  .clientPage .heading {
+    width: 100%;
+  }
+
+  .clientPage .heading h2,
+  .clientPage .heading h2 span {
+    font-size: 35px;
+  }
+
+  .flip-box {
+    border: none;
+  }
+
+  .flip-box-front,
+  .flip-box-back {
+    width: 80%;
+  }
+  .signInpage .section1 .form{
+    width: 32%;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+
+  .amt-para-team-1 {
+    padding: 0;
+  }
+
+  .amt-img-team-2-transi {
+    width: 100%;
+  }
+
+  .amt-team {
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .homePage .highlight {
+    font-size: 12px;
+  }
+
+  .homePage .lightfont {
+    font-size: 18px;
+  }
+
+  .findajob .findajob_section_2 {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .findajob .input_find_a_job_section2,
+  .findajob select {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 1022px) {
+  .amt_linear_img {
+    height: 750px;
+  }
+
+  .amt_form_sec {
+    display: block;
+  }
+
+  .amt_form_sec {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 994px) {
+  .aplicantPage .section1 .col-md-12 {
+    flex-direction: column-reverse;
+  }
+
+  .aplicantPage .banner .body img {
+    width: auto !important;
+  }
+
+  .aplicantPage .section1 .right,
+  .aplicantPage .section1 .left {
+    width: 100% !important;
+  }
+
+  .clientPage .section4 img {
+    width: 100%;
+  }
+ 
+  
+}
+
+@media only screen and (max-width: 991px) {
+  .clientPage .request .right .heading {
+    width: 100% !important;
+  }
+
+  .footer {
+    padding-top: 0 !important;
+    background-image: none !important;
+  }
+  .aplicantPage .section1 .text-center .btn090{
+    margin-top: 10px;
+  }
+  .find_table tr td:first-child{
+    width: 10%!important;
+  }
+}
+
+@media only screen and (max-width: 964px) {
+  .banner-1-0{
+    font-size: 2rem;
+  }
+  .banner-1-1{
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .findajob .find_heading_sub .find_sub_a {
+    width: 50% !important;
+  }
+  .signInpage .section1 .form{
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /* .clientPage .heading {
+    width: 100%;
+  } */
+  .clientPage .heading h2,
+  .clientPage .heading h2 span {
+    font-size: 35px;
+  }
+
+  .clientPage .request .right P {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .clientPage .request .right .butt button {
+    font-size: 14px;
+    padding: 10px 25px;
+  }
+
+  .clientPage .section2 .form .field .span {
+    font-size: 14px;
+  }
+
+  .clientPage .section2 .form .feild label {
+    font-size: 14px;
+  }
+
+  .clientPage .section2 .form .feild input,
+  .clientPage .section2 .form .feild textarea,
+  .clientPage .section2 .form .feild select {
+    height: 40px;
+  }
+
+  .clientPage .section3 .heading h1 {
+    font-size: 28px;
+  }
+
+  .clientPage .section3 .heading div {
+    margin-top: 2rem !important;
+  }
+
+  .clientPage .amt h2 {
+    font-size: 25px;
+  }
+
+  .clientPage .section4 h3 {
+    font-size: 17px;
+    margin-bottom: 40px;
+  }
+
+  .clientPage .section4 .list .list_item {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .fw-68 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .find_table tr td h2{
+    font-size: 6px!important;
+  }
+  .findajob select {
+    font-size: 12px;
+    width: 50%;
+  }
+  .signInpage .section1 .form{
+    width: 48%;
+  }
+
+  .carousel-opacity {
+    gap: 20px;
+  }
+
+  .div_1_amt,
+  .div_2_amt {
+    width: 100% !important;
+  }
+
+  .sub_amt_sec .img_doc {
+    width: 30%;
+    margin: auto;
+  }
+
+  .aplicantPage .texxxtt .logo img {
+    width: 100% !important;
+    max-width: 20%;
+  }
+
+  .clientPage .request .d-flex {
+    flex-direction: column-reverse;
+  }
+
+  .clientPage .request .right,
+  .clientPage .request .left {
+    width: 100% !important;
+  }
+
+  .clientPage .request .left .img {
+    text-align: center;
+  }
+
+  .clientPage .request .left .img img {
+    width: 50% !important;
+  }
+
+  .clientPage .request .right P {
+    font-size: 16px;
+  }
+
+  .clientPage .request .right .butt button {
+    font-size: 17px;
+  }
+
+  .clientPage .heading h2,
+  .clientPage .heading h2 span {
+    font-size: 40px;
+  }
+
+  .clientPage .section1 h2 {
+    font-size: 25px;
+  }
+
+  .clientPage .section1 P {
+    font-size: 12px;
+  }
+
+  .clientPage .section1 h4 {
+    font-size: 13px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .main_mmenu {
+    display: block !important;
+  }
+
+  .form_1_amt .d-flex {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .form_1_amt .btn-test {
+    width: 100% !important;
+  }
+
+  /* .form_2_amt {
+    display: block;
+    width: 50%;
+    margin: auto;
+  } */
+  .homePage .sub_amt_sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .homePage .lightfont {
+    font-size: 20px;
+  }
+
+  header .nav-btn {
+    padding: 8px !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .amt-team-head {
+    font-size: 30px;
+  }
+
+  .amt-para-team-1 {
+    font-size: 14px;
+    list-style: none;
+  }
+
+  .footer .hedingh3 img {
+    width: 30%;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    opacity: -2 !important;
+  }
+  
+}
+
+@media only screen and (max-width: 650px) {
+  .findajob select {
+    font-size: 9px;
+  }
+  .flip-box-front,
+  .flip-box-back {
+    /* right: 0; */
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    margin: auto;
+    text-align: center;
+    /* transform: translate(-50%,-50%); */
+  }
+
+  header .header-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-us-page .about_text img {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-head-1 {
+    font-size: 33px;
+  }
+
+  .banner_about .about_text p {
+    font-size: 12px;
+    line-height: 2;
+  }
+  .signInpage .section1 .form{
+    width: 58%;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  .findajob .findajob_section_2 {
+    flex-direction: column;
+  }
+  .findajob select {
+    font-size: 16px;
+    width: 100% !important;
+  }
+
+  .clientPage .section3 .heading h1 {
+    font-size: 23px;
+  }
+
+  .clientPage .section3 .heading ul li {
+    font-size: 14px;
+  }
+
+  .row-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .about____ {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homePage .amt_single_testimonial {
+    justify-content: flex-start;
+  }
+
+  .findajob .input_find_a_job_section2,
+  .findajob select {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .aplicantPage .section1 .form {
+    padding: 10px;
+  }
+
+  .aplicantPage .section1 .form .logo img {
+    width: 100% !important;
+    /* max-width: 20%; */
+  }
+
+  .aplicantPage .section1 .form .onlineApp {
+    margin: 20px 0;
+    padding: 10px 0;
+  }
+
+  .homePage .img_aos {
+    margin: 20px 0;
+    height: 86px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .amt-team {
+    flex-direction: column-reverse;
+  }
+
+  .amt-team-1,
+  .amt-team-2 {
+    width: 100% !important;
+  }
+
+  .form_2_amt {
+    width: 100% !important;
+  }
+
+  .form_1_amt {
+    width: 100% !important;
+  }
+  .signInpage .section1 .form{
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .about-us-page .cards-list {
+    flex-direction: column;
+  }
+  .constpage img{ 
+    width: 100% !important;
+  }
+  .find_table tr td h2{
+    font-size: 5px !important;
+  }
+  .find_table tr td{
+    font-size: 5px!important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .about-head-2 {
+    font-size: 32px;
+  }
+
+  .our-specialities-head,
+  .our-specialities-head {
+    font-size: 20px;
+  }
+
+  .clientPage .heading h2,
+  .clientPage .heading h2 span {
+    font-size: 30px;
+  }
+
+  .clientPage .request .left .img img {
+    width: 80% !important;
+  }
+
+  .clientPage .section3 .heading {
+    width: 100% !important;
+  }
+
+  .clientPage .section4 .row {
+    flex-direction: column !important;
+  }
+
+  .clientPage .section4 .col-5 {
+    text-align: center;
+  }
+
+  .clientPage .section4 .col-5,
+  .clientPage .section4 .col-7 {
+    width: 100% !important;
+  }
+
+  .clientPage .section4 img {
+    width: 35%;
+  }
+
+  .homePage .cards_main_div h1 {
+    font-size: 32px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .amt-para-team-1-2 {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .aplicantPage .banner h2 {
+
+    font-size: 40px;
+  }
+  .aplicantPage .texxxtt h2 {
+    font-size: 50px;
+  }
+
+  .signInpage .section1 .form{
+    width: 77%;
+  }
+  
+
+
+  .aplicantPage .texxxtt .parrah p,
+  .aplicantPage .section1 .form .text p,
+  .aplicantPage .section1 .form .onlineApp p,
+  .aplicantPage .section1 .form .onlineApp a,
+  .aplicantPage .section1 .parrah p {
+    font-size: 17px;
+  }
+
+  .aplicantPage .section1 .form .feild label {
+    font-size: 16px;
+  }
+
+  .aplicantPage .section1 .form .btn,
+  .aplicantPage .section1 .parrah p strong {
+    font-size: 15px;
+  }
+
+  .aplicantPage .section1 .form .feild input,
+  .aplicantPage .section1 .form .feild select {
+    padding: 3px !important;
+    height: 30px !important;
+    line-height: 0;
+  }
+
+  .aplicantPage .client h2 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .h1_amt_home {
+    font-size: 30px;
+  }
+
+  .banner_about .about_text {
+    width: 100%;
+  }
+
+  .findajob .find_heading_sub .find_sub_a {
+    width: 75% !important;
+  }
+}
+
+@media only screen and (max-width: 332px) {
+  .about-us-page .about_text {
+    font-size: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 334px) {
+  .homePage .h1_amt_home {
+    font-size: 45px;
+  }
+  .signInpage .section1 .form{
+    width: 84%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+
+
+  .flip-box-front,
+  .flip-box-back {
+    width: 45%;
+  }
+
+  .clientPage .heading h2,
+  .clientPage .heading h2 span {
+    font-size: 25px;
+  }
+
+  .clientPage .request .right P {
+    font-size: 13px;
+  }
+
+  .clientPage .request .right .butt button {
+    font-size: 11px;
+  }
+
+  .clientPage .section1 .parah {
+    width: 100% !important;
+    text-align: justify;
+  }
+
+  .clientPage .section2 .field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .clientPage .section2 .form .field .span {
+    line-height: 2;
+    font-size: 12px;
+  }
+
+  .clientPage .section2 .form .feild label {
+    font-size: 11px;
+  }
+
+  .clientPage .section2 .form .feild {
+    margin: 15px 0;
+  }
+
+  .clientPage .section3 .heading h1 {
+    font-size: 18px;
+  }
+
+  .clientPage .section3 .heading ul li {
+    font-size: 10px;
+  }
+
+  .clientPage .amt h2 {
+    font-size: 15px;
+  }
+
+  .clientPage .section2 .form .feild input,
+  .clientPage .section2 .form .feild textarea,
+  .clientPage .section2 .form .feild select {
+    height: 30px;
+    padding: 5px;
+  }
+
+  .copyright p {
+    font-size: 9px;
+    line-height: 16px;
+  }
+
+  .heading-3 {
+    font-size: 16px;
+  }
+
+  ul.top_infomation li {
+    font-size: 12px;
+  }
+
+  .footer .hedingh3 p {
+    font-size: 12px;
+  }
+
+  .homePage .special-heading h4,
+  .homePage .special-heading h4 a {
+    font-size: 13px;
+  }
+  .aplicantPage .section1 .text-center .btn090{
+    padding-left:0;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .flip_amt_carousel {
+    margin-top: 15px;
+  }
+
+  .card {
+    margin-top: 20px;
+  }
+}
+
+.main_mmenu {
+  display: none;
+  padding: 32px 0;
+  width: fit-content !important;
+}
+
+.gototop {
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  background-color: #55bce7;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center !important;
+  display: none;
+  cursor: "pointer";
+  z-index: 999999999999999999;
+}
+
+.gototop a i {
+  color: #fff;
+}
+
+.back_to_top {
+  display: flex;
+  opacity: 1;
+  cursor: "pointer";
+}
+
+.constpage {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+.constpage img {
+  width: auto;
+}
+
+
+.find_table {
+  width: 100%;
+}
+.find_table img {
+  width: 100%;
+}
+.find_table ul  {
+  list-style: none;
+}
+.find_table button{
+  background-color: #fff;
+  border: none;
+}
+.find_table i{
+  font-size: 15px;
+}
+.find_table{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.find_table tr{
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+  gap: 44px !important;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.find_table tr td:first-child{
+  width: 5% !important;
+}
+.find_table tr td{
+  width: 10%;
+  font-weight: 400;
+  font-size: 14px;
+}
+.find_table tr td:nth-child(4),.find_table tr td:nth-child(5),.find_table tr td:nth-child(3){
+  font-weight: 700 !important;
+}
+
+.find_table tr td:nth-child(4){
+  text-align: center;
+}
+.find_table tr td:last-child,.find_table tr td:nth-child(5){
+  text-align: end;
+  width: 9%;
+}
+
+.find_table tr td:last-child a{
+  color: #008EC5;
+}
+
+
+.find_table tr td h2{
+  font-size: 16px;
+  font-weight: 800;
+}
+
+
+.job_detailed .job .job_inner h1{
+  color: #0a58ca;
+  font-weight: 700;
+  font-size: 81px;
+  border-bottom: 1px solid #008EC5;
+  padding: 18px 0 18px 56px;
+}
+
+.job_detailed .job .medical .medical_inner h3{
+  color: #0a58ca;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.4;
+  letter-spacing: 0px;
+  width: 607px;
+}
+
+
+
+.job_detailed  .medical .medical_btn .btn2  ,.job_detailed .job_description .btn2 {
+  background-color: rgb(192, 28, 47);
+  color: #ffffff !important;
+  border: 1px solid #c01c2f !important;
+  cursor: pointer;
+  border-radius: 0 !important;
+  text-transform: uppercase;
+  padding: 4px 18px;
+  font-size: 16px;
+    font-weight: 500;
+}
+.job_detailed  .medical .medical_btn .btn2 a i ,.job_detailed .job_description .btn2 a i{
+  font-size: 15px;
+  color: #fff;
+}
+
+.job_detailed  .medical .medical_btn .btn2:hover ,.job_detailed .job_description  .btn2:hover{
+  background-color: #fff;
+  color: #c01c2f  !important;
+}
+
+.job_detailed  .medical .medical_btn .btn2:hover a ,.job_detailed .job_description  .btn2:hover a {
+  color: #c01c2f !important;
+}
+.job_detailed  .medical .medical_btn .btn2:hover a i , .job_detailed .job_description  .btn2:hover a i{
+  color: #c01c2f !important;
+}
+
+.job_detailed  .medical {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 30px 18px 54px;
+}
+.job_detailed .table_heading .basic_salary{
+  padding-left: 53px;
+}
+.job_detailed .table_heading .basic_salary ,.job_detailed .table_heading .basic_salary .weekly_salary{
+  font-size: 20px;
+  font-weight: bold;
+  color: #0a58ca;
+  
+}
+.job_detailed .salary_table  {
+  border: none;
+}
+
+.job_detailed .salary_table  tr td{
+  padding-left: 55px;
+}
+.job_detailed .salary_table p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #0a58ca;
+  border-bottom: 1px solid #000;
+  
+  
+}
+
+.job_detailed .salary_table span{
+  color: #5C6871;
+  font-size: 15px;
+}
+
+.job_detailed .job_description{
+  padding-left: 55px;
+  padding-top: 51px;
+}
+.job_detailed .job_description h3{
+    color: #0a58ca;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.job_detailed .job_description p{
+  color: #5C6871;
+  font-size: 17px;
+}
+
+
